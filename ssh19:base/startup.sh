@@ -15,6 +15,7 @@
 bash /opt/docker/ldapusers.sh
 # ===================================================================
 
+/sbin/ssh-keygen -A
 /sbin/sshd -D
 
 
